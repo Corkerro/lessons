@@ -1,0 +1,31 @@
+.a{
+    display: block;
+    margin: auto;
+    width: 400px;
+}
+body{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 24px;
+}
+
+h1{
+    font-size: 36px;
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    transition: 2s;
+}
+
+a:hover{
+
+    color: blue ;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
