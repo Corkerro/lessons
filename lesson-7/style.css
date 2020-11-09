@@ -1,0 +1,126 @@
+body{
+
+
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+a{
+    text-decoration: none; 
+    color: blue; 
+    transition: text-decoration .3s;
+    
+}
+
+.container{
+    max-width: 1270px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+.right__site{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+
+.header__inner{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__text{
+    font-family: 'Russo One', sans-serif;
+    max-width: 268px;
+    max-height: 86px;
+    display: block;
+    font-family: Russo One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: justify;
+    
+    color: #000000;
+}
+
+
+/* Table */
+table{
+    background-color: #F8F9FA;
+}
+
+.ortrig{
+    text-align: center;
+}
+
+.orig__intro, .tril__intro{
+    text-align: center;
+}
+
+table{
+    background-color: #EAECF0;
+}
+.film,.data,.rez,.scen,.sujet,.produs,.distrib{
+    text-align: center;
+}
+
+.tril{
+
+    text-align: center;
+}
+
+.main{
+    padding-right: 10px;
+}
+
+.main2{
+
+    padding-right: 10px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+.wd{
+    max-width: 150px;
+    text-align: center;
+}
+
+.centryfox{
+    text-align: center;
+}
+
+.orig__intro1,.tril__intro1{
+    max-width: 84px;
+}
+.data{
+    max-width: 84px;
+}
+.rez{
+    max-width: 106px;
+}
+.scen,.distrib{
+    max-width: 160px;
+}
+
+.sujet{
+    max-width: 170px;
+}
+.produs{
+    max-width: 172px;
+    text-align: center;
+}
+
+.tril__sikv,.tril__intro1,.orig__intro1{
+    text-align: center;
+}
+
+.about{
+    margin-top: 30px;
+}

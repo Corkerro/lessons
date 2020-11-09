@@ -1,0 +1,73 @@
+.container{
+    max-width: 1270px;
+    margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+body{
+    font-family: 'Russo One', sans-serif;
+    font-size: 24px;
+}
+
+.header__inner{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+
+.main__right{
+    display: flex;
+    align-items: center;
+}
+
+.link{
+    margin-right: 80px;
+}
+
+
+/* MAIN */
+.center{
+    max-width: 521px;
+    text-align: justify;
+    font-size: 36px;
+    padding: 0;
+}
+
+.first{
+    text-align: justify;
+    margin-top: 40px;
+}
+
+.second{
+    text-align: justify;
+    margin-top: 40px;
+}
+
+video{
+    display: block;
+    margin: auto;
+}
+ .main{
+     margin-bottom: 50px;
+ }
+
+ a{
+     text-decoration: none;
+     color: #000000;
+     transition: .3s;
+    font-size: 36px;
+    border-radius: 15px;
+
+ }
+ a:hover{
+     color: #ffffff;
+     background-color: #000000;
+     font-size: 48px;
+}
+
+
+
+

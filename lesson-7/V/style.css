@@ -1,0 +1,73 @@
+.container{
+    max-width: 1270px;
+    margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+body{
+    font-family: 'Russo One', sans-serif;
+    font-size: 24px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 36px;
+    transition: .3s;
+    border-radius: 15px;
+    color: #000000;
+}
+
+a:hover{
+    font-size: 48px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+}
+
+.link{
+    margin-right: 80px;
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header{
+    margin-top: 30px;
+}
+
+
+/* MAIN */
+.main{
+    margin-top: 30px;
+}
+
+.center{
+    max-width: 540px;
+    text-align: justify;
+    font-size: 36px;
+    padding: 0;
+}
+
+.first{
+    text-align: justify;
+    margin-top: 105px;
+}
+
+.second{
+    text-align: justify;
+    margin-top: 70px;
+}
+video{
+    display: block;
+    margin: auto;
+}
+
