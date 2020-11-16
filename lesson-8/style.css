@@ -1,0 +1,55 @@
+body{
+    margin: 5px;
+    color: #000000;
+    font-size: 18px;
+    text-align: left;
+
+}
+
+
+
+.header{
+    background: url('./img/Rectangle\ 1\(1\).png')center no-repeat;
+    background-size: cover;
+    height: 200px;
+    margin-bottom: 5px;
+}
+
+.sidbar{
+    background-color: yellow;
+    height:650px;
+    width: 30.7%;
+    margin-bottom: 5px;
+    float: left;
+    
+}
+.content{
+    background-color: teal;
+    height:650px;
+    margin-bottom: 5px;
+    width: 69%;
+    float: left;
+    margin-left: .3%;
+    text-align: justify;
+    padding: 15px;
+}
+
+.footer{
+    background-color: blue;
+    height: 200px;
+}
+    
+.group:after {
+        content: "";
+        display: table;
+        clear: both;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img{
+    float: left;
+}
+
