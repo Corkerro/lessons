@@ -1,0 +1,19 @@
+.roma{
+    height: 500px;
+    width: 500px;
+    background-color: rebeccapurple;
+    margin-left: 100px;
+    margin-top: 100px;
+    text-align: right;
+}
+p,h1{
+    margin-right: 25px;
+}   
+
+.png{
+    position: relative;
+    right: 120px;
+    bottom: 261px;
+    height: 666px;
+    width: 666px;
+}
