@@ -1,0 +1,113 @@
+.hover{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    align-items: center;
+}
+
+.aa{
+    width: 300px;
+    height: 500px;
+    background-color: aqua;
+    transition: all .7s;
+}
+
+.ab{
+    width: 400px;
+    height: 250px;
+    background-color: wheat;
+    transition: all .7s;
+}
+
+.ac{
+    width: 300px;
+    height: 250px;
+    background-color: blue;
+    transition: all .7s;
+}
+
+.ad{
+    width: 400px;
+    height: 350px;
+    background-color: violet;
+    transition: all .7s;
+}
+
+.af{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(3, 175, 175);
+    transition: all .7s;
+}
+
+.aa:hover{
+    width: 360px;
+    height: 550px;
+    background-color: black;
+}
+
+.ab:hover{
+    width: 450px;
+    height: 300px;
+    background-color: rgb(153, 116, 48);
+}
+
+.ac:hover{
+    width: 350px;
+    height: 300px;
+    background-color: rgb(12, 12, 124);
+}
+
+.ad:hover{
+    width: 450px;
+    height: 400px;
+    background-color: rgb(124, 19, 124);
+}
+
+.af:hover{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(8, 87, 87);
+}
+
+.inputi{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ba,.bb,.bc,.bd,.bf{
+    transition: all .7s;
+}
+
+.ba:focus{
+    background-color: aquamarine;
+    border-radius: 7px;
+    border: solid #000000;
+}
+
+.bb:focus{
+    background-color: brown;
+    border-radius: 7px;
+    border: solid #000000;
+}
+
+.bc:focus{
+    background-color: tomato;
+    border-radius: 7px;
+    border: solid #000000;
+}
+
+.bd:focus{
+    background-color: cornflowerblue;
+    border-radius: 7px;
+    border: solid #000000;
+}
+
+.bf:focus{
+    color: #ffffff;
+    background-color: darkblue;
+    border-radius: 7px;
+    border: solid #000000;
+}
