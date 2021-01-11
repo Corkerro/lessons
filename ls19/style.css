@@ -1,0 +1,180 @@
+
+
+
+.fab {
+    
+    font-size: 350px;
+    color: #ffffff;
+    border-radius: 20%;
+    position: relative;
+    left: 7%;
+    
+}
+
+.bgc{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+    width: 350px;
+    height: 350px;
+    border-radius: 20%;
+    padding-right: 40px;
+}
+.all{
+    display: block;
+    left: 25%;
+    top: 100px;
+    height: 600px;
+    width: 910px;
+    position: relative;
+}
+.all__inner{
+    align-items: center;
+    display: flex;
+    
+}
+
+form{
+    box-shadow: 10px 10px 10px rgba(0,0,0, .25);
+    box-shadow: -10px -10px -10px rgba(0,0,0, .25);
+    width: 500px;
+    margin: 60px;
+    height: 400px;
+    background-color: rgba(254, 255, 243, 0.48);
+    padding: 50px;
+    border-radius: 50px;
+    
+}
+h1{
+    
+    display: block;
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 48px;
+}
+p{
+    font-size: 16px;
+    color: #000000  ;
+}
+.lt1{
+    padding-top: 30px;;
+}
+.label__text{
+    width: 340px;
+    display: block;
+    text-align: justify;
+    margin:  auto;
+}
+
+input{
+    width: 340px;
+    height: 40px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    transition: all linear .7s;
+}
+button{
+    background-color: rgb(0, 153, 255);
+    width: 340px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 30px;
+    color: #ffffff;
+    font-size: 24px;
+    transition: all linear .3s;
+}
+
+button:hover{
+    background-color: #fff;
+    color: #000000;
+}
+
+input:focus{
+    background-color: rgb(0, 153, 255);
+    color: #ffffff;
+    border: solid #000000;
+}
+
+@media screen and (max-width:1170px){
+    p,h1,h2,h3,h4,h5,h6{
+        margin: 0;
+    }
+    .all{
+        display: block;
+        left: 0;
+        margin: 0 auto;
+        height: 486px;
+        width: 890px;
+    
+    }
+
+    .bgc{
+        width: 200px;
+        height: 250px;
+        align-items: center;
+    }
+    .fab{
+        font-size: 250px;
+    }
+    h1{
+        font-size: 36px;
+        margin-top: 20px;
+    }
+
+    p{
+        margin-top: 10px;
+    }
+
+    button{
+        margin-top: 50px;
+    }
+
+    form{
+        width: 500px;
+        height: 350px;
+        padding-top: 10px;
+        
+    }
+}
+@media screen and (max-width:860px){
+    .all{
+        display: block;
+        position: relative;
+        left: 28%;
+    
+    }
+    .all__inner{
+        display: block;
+        align-items: center;
+    }
+    .bgc{
+        width: 150px;
+        height: 200px;
+        align-items: center;
+        position: relative;
+        left: 130px;
+    }
+    .fab{
+        font-size: 200px;
+    }
+    h1{
+        font-size: 36px;
+        margin-top: 10px;
+    }
+    p{
+        font-size: 14px;
+        margin-top: 5px;
+    }
+    button{
+        margin-top: 20px;
+    }
+    form{
+        width: 450px;
+        height: 300px;
+        padding:0;
+        margin: 0;
+        margin-top: 30px;
+    }
+}
