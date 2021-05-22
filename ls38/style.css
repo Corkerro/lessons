@@ -1,0 +1,144 @@
+*{
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
+
+body{
+    margin: 0;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.nav__bar{
+    background-color: #000;
+    height: 70px;
+}
+.nav__bar__inner{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.nav__text{
+    opacity:0.6901960784313725;
+    color:#FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    font-size:14px;
+    text-align:right;
+    text-decoration: none;
+    margin-right: 45px;
+    transition: all .3s;
+}
+
+.nav__text:last-child{
+    margin: 0;
+}
+
+.nav__text:hover{
+    font-size: 18px;
+    color: red;
+}
+
+.header__main{
+    width: 100%;
+    height: 640px;
+    background-color: lightgray;
+}
+
+.header__main__inner{
+    padding-top: 110px;
+}
+
+.hm_text1{
+    opacity:1;
+    color:#FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    font-size:36px;
+    width: 520px;
+    text-align: left;
+    margin-top: 33px;
+}
+
+.palka{
+    width: 74px;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 2px;
+    margin-top: 36px;
+}
+
+.hm_text2{
+    opacity:0.8;
+    color:#FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    font-size:16px;
+    text-align:justify;
+    width: 460px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.header__button1{
+    color: #fff;
+    padding: 15px 32px;
+    border: 2px solid white;
+    border-radius: 2px;
+    transition: all .3s;
+}
+
+.header__button1:hover{
+    background-color: #fff;
+    color: #000;
+    font-style: bold;
+}
+
+.hmm{
+    display: flex;
+    justify-content: space-between;
+}
+
+input:focus{
+    border: none;
+}
+
+.hmi2_header{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(243, 243, 243);
+    padding-top: 20px;
+}
+
+.header__main__inner2{
+    width: 360px;
+}
+
+.free{
+    color: orange;
+}
+
+.i2_hh{
+    font-size: 20px;
+    display: block;
+    text-align: center;
+}
+
+.gmi2_main{
+    display: block;
+    margin: 0 auto;
+}
+
+input{
+    width: 281px;
+    border: none;
+}
+
+input:focus{
+    
+    outline: none; 
+    border: none;
+}

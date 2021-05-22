@@ -1,0 +1,33 @@
+.contaner div {
+    background-color: burlywood;
+
+    border-radius: 5px;
+}
+.contaner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 3fr 20fr 1fr;
+    grid-gap: 10px;
+    
+    
+}
+.contaner div:nth-child(1) {
+    background-color: darkkhaki; 
+    grid-column: 1/5;
+}
+.contaner div:nth-child(2) {
+    background-color: bisque;
+    grid-column: 1; 
+    grid-row: 2; 
+}
+.contaner div:nth-child(3) {
+    background-color: darkgray;
+    grid-column: 2/4; 
+}
+.contaner div:nth-child(4) {
+    background-color: bisque;
+}
+.contaner div:nth-child(5) {
+    background-color:burlywood; 
+    grid-column: 1/5;
+}
